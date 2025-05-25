@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+
+@media (min-width: 1024px) {
+  body {
+    background-color: lightblue;
+  }
+  .container {
+    font-size: 24px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: lightgreen;
+  }
+  .container {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    background-color: lightcoral;
+  }
+  .container {
+    font-size: 16px;
+  }
+}
